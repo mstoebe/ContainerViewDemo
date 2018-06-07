@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class TableViewController: ViewController, NSTableViewDelegate, NSTableViewDataSource {
+class TableViewController: NSViewController, NSTableViewDelegate, NSTableViewDataSource {
 
 	@IBOutlet weak var tableView: NSTableView!
 
