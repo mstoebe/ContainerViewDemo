@@ -15,6 +15,8 @@
 		02D4A07520C99C5400F47324 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4A07420C99C5400F47324 /* CollectionViewController.swift */; };
 		02D4A07820C99E4100F47324 /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4A07620C99E4100F47324 /* CollectionViewItem.swift */; };
 		02D4A07920C99E4100F47324 /* CollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4A07720C99E4100F47324 /* CollectionViewItem.xib */; };
+		02D4A07B20C9A46600F47324 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4A07A20C9A46600F47324 /* TabViewController.swift */; };
+		02D4A07D20CEE53A00F47324 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4A07C20CEE53A00F47324 /* NewsItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		02D4A07420C99C5400F47324 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		02D4A07620C99E4100F47324 /* CollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
 		02D4A07720C99E4100F47324 /* CollectionViewItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewItem.xib; sourceTree = "<group>"; };
+		02D4A07A20C9A46600F47324 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		02D4A07C20CEE53A00F47324 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				02D4A07420C99C5400F47324 /* CollectionViewController.swift */,
 				02D4A07620C99E4100F47324 /* CollectionViewItem.swift */,
 				02D4A07720C99E4100F47324 /* CollectionViewItem.xib */,
+				02D4A07A20C9A46600F47324 /* TabViewController.swift */,
+				02D4A07C20CEE53A00F47324 /* NewsItem.swift */,
 				02BCD25620B97EAB00BAAA82 /* Main.storyboard */,
 				02BCD25920B97EAB00BAAA82 /* Info.plist */,
 				02BCD25420B97EAB00BAAA82 /* Assets.xcassets */,
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D4A07B20C9A46600F47324 /* TabViewController.swift in Sources */,
+				02D4A07D20CEE53A00F47324 /* NewsItem.swift in Sources */,
 				02D4A07520C99C5400F47324 /* CollectionViewController.swift in Sources */,
 				02BCD25320B97EAB00BAAA82 /* ViewController.swift in Sources */,
 				024C854320C28C3900EF92B0 /* TableViewController.swift in Sources */,
