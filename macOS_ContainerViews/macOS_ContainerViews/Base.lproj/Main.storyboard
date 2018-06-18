@@ -1021,11 +1021,11 @@
             <objects>
                 <viewController id="LbW-ix-51O" customClass="TabViewController" customModule="macOS_ContainerViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="fuG-6g-fL7">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="530"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tabView translatesAutoresizingMaskIntoConstraints="NO" id="rjV-lI-Ipf">
-                                <rect key="frame" x="-7" y="-10" width="464" height="316"/>
+                                <rect key="frame" x="-7" y="-10" width="750" height="546"/>
                                 <font key="font" metaFont="system"/>
                                 <tabViewItems>
                                     <tabViewItem label="OutlineView" identifier="" id="nY7-hc-OXT">
@@ -1158,19 +1158,43 @@
                                     </tabViewItem>
                                     <tabViewItem label="SplitView" identifier="" id="3YV-lV-kbW">
                                         <view key="view" id="Ee1-m2-Osv">
-                                            <rect key="frame" x="10" y="33" width="444" height="270"/>
+                                            <rect key="frame" x="10" y="33" width="730" height="500"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <splitView arrangesAllSubviews="NO" dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJX-PX-U2x">
-                                                    <rect key="frame" x="0.0" y="0.0" width="444" height="270"/>
+                                                <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJX-PX-U2x">
+                                                    <rect key="frame" x="0.0" y="0.0" width="730" height="500"/>
                                                     <subviews>
-                                                        <customView fixedFrame="YES" id="Sul-ex-yRF">
-                                                            <rect key="frame" x="0.0" y="0.0" width="218" height="270"/>
+                                                        <customView id="Sul-ex-yRF">
+                                                            <rect key="frame" x="0.0" y="0.0" width="362" height="500"/>
                                                             <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DwZ-si-WVr">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="362" height="500"/>
+                                                                    <imageCell key="cell" selectable="YES" editable="YES" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="03" id="emg-Jg-huC"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="DwZ-si-WVr" secondAttribute="bottom" id="AZ1-fx-fO6"/>
+                                                                <constraint firstItem="DwZ-si-WVr" firstAttribute="top" secondItem="Sul-ex-yRF" secondAttribute="top" id="X8C-bC-wum"/>
+                                                                <constraint firstItem="DwZ-si-WVr" firstAttribute="leading" secondItem="Sul-ex-yRF" secondAttribute="leading" id="pvY-hU-X6u"/>
+                                                                <constraint firstAttribute="trailing" secondItem="DwZ-si-WVr" secondAttribute="trailing" id="uGk-x1-fEv"/>
+                                                            </constraints>
                                                         </customView>
-                                                        <customView fixedFrame="YES" id="Knx-3T-P7g">
-                                                            <rect key="frame" x="228" y="0.0" width="216" height="270"/>
+                                                        <customView id="Knx-3T-P7g">
+                                                            <rect key="frame" x="372" y="0.0" width="358" height="500"/>
                                                             <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PB4-QS-K60">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="358" height="500"/>
+                                                                    <imageCell key="cell" selectable="YES" editable="YES" alignment="left" animates="YES" imageScaling="proportionallyUpOrDown" image="06" id="7Xb-2W-hOp"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <constraints>
+                                                                <constraint firstItem="PB4-QS-K60" firstAttribute="leading" secondItem="Knx-3T-P7g" secondAttribute="leading" id="Hcv-sl-cBT"/>
+                                                                <constraint firstItem="PB4-QS-K60" firstAttribute="top" secondItem="Knx-3T-P7g" secondAttribute="top" id="Hyq-BL-mPX"/>
+                                                                <constraint firstAttribute="bottom" secondItem="PB4-QS-K60" secondAttribute="bottom" id="ujc-6J-zih"/>
+                                                                <constraint firstAttribute="trailing" secondItem="PB4-QS-K60" secondAttribute="trailing" id="vH5-is-TOX"/>
+                                                            </constraints>
                                                         </customView>
                                                     </subviews>
                                                     <holdingPriorities>
@@ -1208,6 +1232,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="03" width="219.60000610351562" height="193.5"/>
+        <image name="06" width="500" height="500"/>
         <image name="Square" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
