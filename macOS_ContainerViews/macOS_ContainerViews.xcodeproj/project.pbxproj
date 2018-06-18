@@ -11,6 +11,7 @@
 		025074F120D7DEAB005279A0 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025074EF20D7DEAB005279A0 /* GridViewController.swift */; };
 		025074F520D7DFA9005279A0 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 025074F320D7DFA9005279A0 /* 03.png */; };
 		025074F620D7DFA9005279A0 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 025074F420D7DFA9005279A0 /* 06.png */; };
+		025074FA20D7E28A005279A0 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 025074F920D7E28A005279A0 /* Logo.png */; };
 		02BCD25120B97EAB00BAAA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BCD25020B97EAB00BAAA82 /* AppDelegate.swift */; };
 		02BCD25320B97EAB00BAAA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BCD25220B97EAB00BAAA82 /* ViewController.swift */; };
 		02BCD25520B97EAB00BAAA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BCD25420B97EAB00BAAA82 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		025074EF20D7DEAB005279A0 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		025074F320D7DFA9005279A0 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
 		025074F420D7DFA9005279A0 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		025074F920D7E28A005279A0 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		02BCD24D20B97EAB00BAAA82 /* macOS_ContainerViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS_ContainerViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BCD25020B97EAB00BAAA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BCD25220B97EAB00BAAA82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				02BCD24E20B97EAB00BAAA82 /* Products */,
 				025074F320D7DFA9005279A0 /* 03.png */,
 				025074F420D7DFA9005279A0 /* 06.png */,
+				025074F920D7E28A005279A0 /* Logo.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025074FA20D7E28A005279A0 /* Logo.png in Resources */,
 				025074F620D7DFA9005279A0 /* 06.png in Resources */,
 				025074F520D7DFA9005279A0 /* 03.png in Resources */,
 				02BCD25520B97EAB00BAAA82 /* Assets.xcassets in Resources */,

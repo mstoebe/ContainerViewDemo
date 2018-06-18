@@ -713,19 +713,23 @@
                             <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="14" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TmK-vS-cg2">
                                 <rect key="frame" x="10" y="27" width="460" height="565"/>
                                 <subviews>
-                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vBo-jH-fQU">
-                                        <rect key="frame" x="166" y="399" width="128" height="166"/>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="Square" id="wer-mD-4dK"/>
+                                    <imageView focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vBo-jH-fQU">
+                                        <rect key="frame" x="155" y="415" width="150" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="bea-5e-PbY"/>
+                                            <constraint firstAttribute="width" constant="150" id="r2C-S7-QPq"/>
+                                        </constraints>
+                                        <imageCell key="cell" enabled="NO" refusesFirstResponder="YES" focusRingType="none" alignment="left" imageScaling="proportionallyDown" image="Logo" id="wer-mD-4dK"/>
                                     </imageView>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fyG-an-qD4">
-                                        <rect key="frame" x="73" y="356" width="315" height="29"/>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyG-an-qD4">
+                                        <rect key="frame" x="73" y="356" width="315" height="45"/>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Mac &amp; i ContainerView-Demo" id="VTW-R5-6fn">
                                             <font key="font" size="24" name=".AppleSystemUIFont"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vvC-F0-0su">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vvC-F0-0su">
                                         <rect key="frame" x="195" y="323" width="71" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="TableView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rRk-RK-HQf">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -735,7 +739,7 @@
                                             <segue destination="mX5-zF-5pK" kind="show" id="xfO-OR-Xgr"/>
                                         </connections>
                                     </button>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-mM-aoB">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-mM-aoB">
                                         <rect key="frame" x="181" y="291" width="98" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="CollectionView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="yiW-5Z-t6h">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -745,7 +749,7 @@
                                             <segue destination="zH9-z6-rbo" kind="show" id="yfl-DO-bfM"/>
                                         </connections>
                                     </button>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QUK-Yg-LgG">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QUK-Yg-LgG">
                                         <rect key="frame" x="200" y="259" width="61" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="TabView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8Jr-Bd-BPh">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -755,7 +759,7 @@
                                             <segue destination="LbW-ix-51O" kind="show" id="oXu-MW-FyK"/>
                                         </connections>
                                     </button>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6pj-yh-EZl">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6pj-yh-EZl">
                                         <rect key="frame" x="189" y="227" width="82" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="OutlineView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="zCc-B6-qAT">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -765,7 +769,7 @@
                                             <segue destination="LbW-ix-51O" kind="show" id="tdQ-wq-3Ay"/>
                                         </connections>
                                     </button>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fem-wJ-vmZ">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fem-wJ-vmZ">
                                         <rect key="frame" x="197" y="195" width="66" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="GridView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Ft6-yd-0mi">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -775,7 +779,7 @@
                                             <segue destination="FrS-kK-R6v" kind="show" id="JCk-sG-hPt"/>
                                         </connections>
                                     </button>
-                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="WMe-Fe-Prw">
+                                    <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WMe-Fe-Prw">
                                         <rect key="frame" x="197" y="163" width="67" height="19"/>
                                         <buttonCell key="cell" type="roundRect" title="SplitView" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cwX-nZ-YVU">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -1326,7 +1330,7 @@
     <resources>
         <image name="03" width="219.60000610351562" height="193.5"/>
         <image name="06" width="500" height="500"/>
-        <image name="Square" width="128" height="128"/>
+        <image name="Logo" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="tdQ-wq-3Ay"/>
